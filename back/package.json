@@ -1,0 +1,27 @@
+{
+  "name": "adc-game",
+  "version": "1.0.0",
+  "description": "tentativa de jogo de tabuleiro/card pra um amigo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulomcs/ADC-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulomcs/ADC-game/issues"
+  },
+  "homepage": "https://github.com/paulomcs/ADC-game#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
