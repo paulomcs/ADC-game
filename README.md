@@ -1,2 +1,2 @@
 # ADC-game
-tentativa de jogo de tabuleiro/card pra um amigo.
+Game inspired by loldle, but to my the B in Brodis.
