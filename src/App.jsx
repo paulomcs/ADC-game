@@ -1,35 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import React from "react";
+import Title from "./components/Title";
+import HelpButton from "./components/HelpButton";
+import SearchBar from "./components/SearchBar";
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <Title />
+      <div className="guess w-96 text-center text-black text-4xl font-semibold font-['Poppins'] leading-10">
+        Adivinhe o personagem de adventures of ccpa de hoje!
+        <br />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <div className="helpNav flex">
+        <HelpButton />
+        <HelpButton />
+        <HelpButton />
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <SearchBar />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
